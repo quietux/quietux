@@ -1,0 +1,122 @@
+/* CSS Core / Global */
+body {
+	color:#fff;
+	background: #000 url(../img/splash.png) no-repeat;
+	background-attachment:fixed;
+	background-position:center center;
+}
+
+body.init {
+	background: #310031 url(../img/splash.png) no-repeat;
+	background-attachment:fixed;
+	background-position:center center;
+}
+
+div#background {
+	background:	url(../img/background.png) repeat;
+	background-attachment:fixed;
+	position:	fixed;
+	top:		0;
+	left:		0;
+	height:		100%;
+	width:		100%;
+}
+
+div#background.init {
+	opacity: 0.6;
+	filter:alpha(opacity=60); 
+}
+
+div#panel-connexion {
+	float:		left;
+	margin:		40px;
+	width:		270px;
+	background:	#1A1A1A;
+	border:		solid 1px #ABABAB;
+	padding:	20px;
+	border-radius:	15px	/* haut gauche */
+					0px		/* haut droit */
+					15px	/* bas droit */
+					40px;	/* bas gauche */
+	font-size:	24px;
+	font-family:	'Nimbus Sans L','URW Gothic L',Verdana,Tahoma,Helvetica,'Lucida Grande',Geneva,'DejaVu Sans','Microsoft Sans Serif';
+}
+
+div#panel-connexion ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#panel-connexion ul li.user {
+	color:#BFBFBF;
+}
+div#panel-connexion ul li.selected {
+	color:#fff;
+}
+div#panel-connexion ul li.user:hover {
+	cursor:pointer;
+	color:#98E6FF;
+}
+
+
+div#panel-connexion input.password {
+	border-radius:	4px		/* haut gauche */
+					0px		/* haut droit */
+					0px		/* bas droit */
+					4px;	/* bas gauche */
+}
+
+div#panel-connexion input.text {
+	border-radius:	4px		/* haut gauche */
+					4px		/* haut droit */
+					4px		/* bas droit */
+					4px;	/* bas gauche */
+}
+
+div#panel-connexion input {
+	float:		left;
+	color:		#fff;
+	width:		220px;
+	height:		30px;
+	background:	#000;
+	font-size:	24px;
+	padding:	5px;
+	letter-spacing:4px;
+	border:		solid 1px #fff;
+	border-right:	none;
+	margin-top:	10px;
+	margin-bottom:	10px;
+}
+
+div#panel-connexion input.text {
+	width:		250px;
+	border:		solid 1px #fff;
+}
+
+div#panel-connexion span.run-connexion {
+	float:		left;
+	color:		#fff;
+	width:		20px;
+	height:		30px;
+	background:	#000;
+	font-size:	24px;
+	padding:	5px;
+	border:		solid 1px #fff;
+	border-left:	none;
+	margin-top:	10px;
+	margin-bottom:	10px;
+	border-radius:	0px		/* haut gauche */
+					4px		/* haut droit */
+					4px		/* bas droit */
+					0px;	/* bas gauche */
+}
+
+div#panel-connexion span.run-connexion-link {
+	background: #000 url(../img/run-connexion-link.png) no-repeat;
+}
+
+div#panel-connexion span.run-connexion-link:hover {
+	cursor:pointer;
+	background: #000 url(../img/run-connexion-link-hover.png) no-repeat;
+}

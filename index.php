@@ -29,7 +29,7 @@
 				<li class="params">
 					<input type="password" class="password" /><span class="run-connexion"></span>
 				</li>
-				<li class="user">Autre utilisateur</li>
+				<li class="user">Autre utilisateur...</li>
 				<li class="params">
 					<input type="text" class="text" value="utilisateur" /></span>
 					<input type="password" class="password" /><span class="run-connexion"></span>

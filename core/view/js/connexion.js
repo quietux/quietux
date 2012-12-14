@@ -34,10 +34,10 @@ $(document).ready(function() {
 	
 	setTimeout(function(){ 
 		$("body").removeClass("init", 1000);
-	}, 500);
+	}, 1000);
 	setTimeout(function(){ 
 		$("#background").removeClass("init", 500);
-	}, 1500);
+	}, 2000);
 });
 
 function verticalAlignCenter() {
